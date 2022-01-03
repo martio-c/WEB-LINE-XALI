@@ -1,0 +1,30 @@
+google tips
+use quotes (" ")
+untuk cari dalam website (site:url)
+untuk hilangin website yg kita tk mau (-url)
+utk spesifik waktu setelah (after:time atau before:time atau time..time)
+or (A|B)
+cari benda di tengah kalimat (*)
+cari spesifik file type (filetype:pdf)
+cari yg mirip (related:url)
+cari cache (cache:url)
+
+how internet works?
+ internet = wire
+server = computer yg connect ke internet
+webpage= file di harddrive server
+semua server pnya IP (alamat) jadi d kasi nama jadi kek www.google.com
+komputer kita bukan server tpi hnya client karna kita pake internet service provider
+router tu ada di semua intersection of internet jadi di tiap intersection bakal d kasi package, yg bakal kebuka kalau dia balik pake jalur yg sama
+
+
+git init = initialize local git repo
+git add = add files
+git status = check status of working tree
+git commit = commit changes in staging area
+git push = push to remote repo
+git pull = pull latest from remote repo
+git clone = clone remote repo locally
+git branch <branch name> = create new branch
+git checkout <branch name> = switch to a branch
+git merge <branch name> = merge branch with another

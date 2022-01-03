@@ -1,0 +1,23 @@
+{"highlight-matching-tag.styles": {
+        "opening": {
+            "left": {
+                "custom": {
+                    "borderWidth": "0 0 0 2px",
+                    "borderStyle": "dotted",
+                    "borderColor": "aqua",
+                    "borderRadius": "5px",
+                    "overviewRulerColor": "white"
+                }
+            },
+            "right": {
+                "custom": {
+                    "borderWidth": "0 2px 0 0",
+                    "borderStyle": "dotted",
+                    "borderColor": "aqua",
+                    "borderRadius": "5px",
+                    "overviewRulerColor": "white"
+                }
+            }
+        }
+    }
+}

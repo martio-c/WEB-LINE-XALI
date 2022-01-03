@@ -1,0 +1,279 @@
+@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&family=ZCOOL+KuaiLe&display=swap");
+
+/* child code (>) */
+
+/* CSS variables AKA Custom Properties 
+hold a value and reuse it
+--varname: value
+property:var(--varname)
+scope
+:root{} === global
+element === local
+any property
+
+cara simpan value globally
+:root{
+  --merah:#merah;
+  --transition: all 0.4s linear;
+  --biru: #biru;
+}
+
+cara ambe value
+.class{
+  colour: var(--merah)
+  transition: var(--transition)
+}
+.class:hover:{
+  color: var(--biru)
+}
+
+klau local lgsg ambe div atau local apapun
+*/
+
+/* link notes
+a:link
+:visited
+:hover
+:active
+*/
+
+/* tranform notes
+transform: change ()
+change = translate, scale, rotate, skew
+translate = move (x, y)
+scale = size
+rotate = (degree) -> rotate=rotatez
+skew = trapesium -> skew(1) = skewX(1)
+*/
+
+/* transition = change over time
+transition-property: = apa yg berubah. cth -> background, element, border radius,(apapun yg mau di ubah)
+transition-duration: waktu brubah
+transition-delay: waktu sebelum dia mulai berubah
+transition: property duration delay, property2 duration delay, property3 duration delay or all duration delay
+
+transition-timing-function:
+ease = default = slow start fast slow end
+ease-in= slow start
+ease-out = slow end
+ease-in-out = ease(?)
+linear = same speed
+
+transition = property duration transition-timing-function delay
+*/
+
+/* animation notes
+
+Transition 0 = 100%
+animation 0 1% 2% .... 100%
+
+animation-fill-mode: 
+backwards: balek ke semula
+fowards: ke setelah animation selesai
+
+animation name: 'name';
+animation-duration: lamanya;
+animation-iteration-count: berapa kali;
+animation: 'name' duration count
+
+@keyframes 'name'{
+  0%{
+    tranform: translate(20px)
+  }
+  50%{
+    transform: translate(50px)
+  }
+  100%{
+    transform: translate(100%)
+  }
+}
+*/
+
+/* media quieries 
+@media screen and (min-width or max width or what ever) {
+  body {
+  }
+  and other changes
+}
+*/
+
+/* pseudo element notes
+
+
+p::before {
+  content:" ";
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  top: -20px;
+  left: -20px;
+  z-index: (mw yg mana dlu);
+  transition: all (time) linear;
+}
+p:hover::before,
+p:hover::after{
+  top: 0;
+  left: 0;
+}
+
+*/
+
+/* ICONS notes
+
+
+Font-awesome Icons
+https://fontawesome.com/
+
+*/
+
+/* text-shadow box-shadow notes
+text-shadow: x y blurry spread colour
+box-shadow(background): x y blur spread colour
+
+bisa pake generator dari inet
+
+*/
+
+/* Semantic text notes
+
+*/
+
+*{
+  margin: 0px ;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body {
+  background: #fdfffc;
+  box-sizing: border-box;
+  padding: 0px 2.3vw;
+}
+p {
+  color: #011627;
+}
+h1 {
+  font-family: "Press Start 2P", cursive;
+  color: #2ec4b6;
+}
+td {
+  color: #ff9f1c;
+  font-size: 2rem;
+  font-family: "ZCOOL Kuaile", cursive;
+}
+th {
+  font-size: 2rem;
+  font-family: "ZCOOL Kuaile";
+  color: #e71d36;
+}
+
+#jointhegroup {
+  font-family: "Press Start 2P";
+  color: #2ec4b6;
+  text-decoration: lin;
+}
+
+.project {
+  color: #2ec4b6;
+}
+
+div {
+  font-family: "ZCOOL Kuaile";
+  color: #2ec4b6;
+}
+
+span {
+  font-family: "ZCOOL Kuaile";
+  color: #2ec4b6;
+}
+
+/* test 1 */
+.outer {
+background: #2ec4b6;
+width: 100vw;
+height: 40vh;
+display: inline;
+}
+
+.inner {
+background: #e71d36;
+width: 95vw;
+height: 35vh;
+display: inline;
+}
+
+/* test 2 */
+
+.banner{
+  width: 100vw;
+  height: 50vh;
+  background-color: #2ec4b6;
+  outline-offset: -8vh;
+  outline: 10px solid #e71d36;
+}
+
+/* test 3 */
+.imagess{
+  background: url("./images/Untitled-1.jpg ");
+  width: 95.395vw;
+  box-sizing: border-box;
+  height: 560px;
+  padding: 10px 2.7vw;
+  background-size: contain;
+  background-repeat:repeat;
+  background-attachment: fixed;
+  z-index: -1;
+  
+/* border size solid colour */
+
+}
+.imagess-out{
+  background:rgb(1, 22, 39);
+  width: 90vw;
+  height: 540px;
+  box-sizing: border-box;
+  opacity: 0.4;
+  background-attachment: fixed;
+  z-index: 1;
+}
+
+
+.home-page{
+  position: relative;
+  text-align: center;
+  font-size: 100px;
+  top: -25rem;
+}
+
+.fa-users{
+  position: relative;
+  left: 59rem;
+  top: -15rem;
+  size: 80px;
+  font-size: 80px;
+  
+
+}
+
+.fa-briefcase{
+  position: relative;
+  top: -15rem;
+  left: 38rem;
+  font-size: 80px;
+}
+
+.fa-home{
+  position: relative;
+  top: -15rem;
+  left: 40rem;
+  font-size: 80px;
+}
+
+a:hover{
+color: #ff9f1c;
+}
+
+
+
+a{
+  color: #2ec4b6;
+}
