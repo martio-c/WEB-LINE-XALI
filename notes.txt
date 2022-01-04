@@ -20,11 +20,16 @@ router tu ada di semua intersection of internet jadi di tiap intersection bakal 
 
 git init = initialize local git repo
 git add = add files
+git rm --cached <file name> = remove file
 git status = check status of working tree
 git commit = commit changes in staging area
 git push = push to remote repo
 git pull = pull latest from remote repo
 git clone = clone remote repo locally
 git branch <branch name> = create new branch
-git checkout <branch name> = switch to a branch
+git checkout <branch name/commit id> = switch to a branch
 git merge <branch name> = merge branch with another
+touch .gitignore = ngk kena update
+touch log.txt = buat file
+git log = check commit sebelumnya
+
